@@ -20,7 +20,7 @@ I work on **machine vision** — teaching cameras to reliably see objects and mo
 **Machine Vision** · object detection & tracking, real-time vision, edge deployment<br/>
 **Embedded & Robotics** · C, target tracking & autonomous motion control<br/>
 **Markets** · Python, long-side scanning with [`longscan`](https://github.com/PitoLis/longscan)<br/>
-**Blockchain** · Solidity, Move, Ethereum, Sui, Rooch, Axelar
+**Blockchain** · Solidity, Ethereum
 
 ### 🚀 What I'm up to
 
