@@ -1,34 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Pumpkin — night city skyline banner with stars, meteors and a glowing jack-o'-lantern">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Pumpkin — black-and-gold night city skyline banner with stars, meteors and a glowing jack-o'-lantern">
   <defs>
     <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#10121c"/>
-      <stop offset="0.55" stop-color="#1a1b26"/>
-      <stop offset="1" stop-color="#2f334d"/>
+      <stop offset="0" stop-color="#0a0a0c"/>
+      <stop offset="0.55" stop-color="#101012"/>
+      <stop offset="1" stop-color="#221b0e"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7aa2f7"/>
-      <stop offset="1" stop-color="#bb9af7"/>
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#c9971c"/>
     </linearGradient>
     <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#c0caf5" stop-opacity="0.22"/>
-      <stop offset="0.5" stop-color="#c0caf5" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#c0caf5" stop-opacity="0"/>
+      <stop offset="0" stop-color="#e0af68" stop-opacity="0.24"/>
+      <stop offset="0.5" stop-color="#e0af68" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#e0af68" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="pumpGlow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#ff9e64" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#ff9e64" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="meteorTail" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#c0caf5" stop-opacity="0"/>
-      <stop offset="1" stop-color="#e6e9f0" stop-opacity="0.9"/>
+      <stop offset="0" stop-color="#e0af68" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffe08a" stop-opacity="0.9"/>
     </linearGradient>
   </defs>
 
   <!-- sky -->
   <rect width="1200" height="320" fill="url(#nightSky)"/>
 
-  <!-- stars: four groups with staggered twinkle phases -->
-  <g fill="#c0caf5">
+  <!-- stars: four groups with staggered twinkle phases, mixed gold tones -->
+  <g fill="#ffd173">
     <g>
       <circle cx="80" cy="58" r="1.6"/><circle cx="212" cy="132" r="1.2"/><circle cx="338" cy="44" r="1.8"/><circle cx="524" cy="60" r="1.3"/><circle cx="756" cy="52" r="1.6"/><circle cx="944" cy="126" r="1.2"/><circle cx="1128" cy="46" r="1.7"/>
       <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" repeatCount="indefinite"/>
@@ -37,6 +37,8 @@
       <circle cx="146" cy="96" r="1.2"/><circle cx="286" cy="118" r="1.5"/><circle cx="452" cy="36" r="1.2"/><circle cx="662" cy="94" r="1.4"/><circle cx="848" cy="60" r="1.2"/><circle cx="1032" cy="88" r="1.5"/><circle cx="1176" cy="140" r="1.2"/>
       <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.4s" begin="-1.1s" repeatCount="indefinite"/>
     </g>
+  </g>
+  <g fill="#e0af68">
     <g>
       <circle cx="56" cy="150" r="1.3"/><circle cx="398" cy="88" r="1.2"/><circle cx="578" cy="40" r="1.5"/><circle cx="718" cy="130" r="1.2"/><circle cx="892" cy="98" r="1.4"/><circle cx="1074" cy="62" r="1.2"/>
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" begin="-0.6s" repeatCount="indefinite"/>
@@ -52,32 +54,32 @@
     <circle cx="1050" cy="72" r="46" fill="url(#moonGlow)">
       <animate attributeName="r" values="44;54;44" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1050" cy="72" r="26" fill="#e6e9f0"/>
-    <circle cx="1042" cy="64" r="4.5" fill="#c0caf5" opacity="0.5"/>
-    <circle cx="1058" cy="82" r="3" fill="#c0caf5" opacity="0.4"/>
-    <circle cx="1054" cy="60" r="2.2" fill="#c0caf5" opacity="0.35"/>
+    <circle cx="1050" cy="72" r="26" fill="#ffe08a"/>
+    <circle cx="1042" cy="64" r="4.5" fill="#d4a017" opacity="0.5"/>
+    <circle cx="1058" cy="82" r="3" fill="#d4a017" opacity="0.4"/>
+    <circle cx="1054" cy="60" r="2.2" fill="#d4a017" opacity="0.35"/>
   </g>
 
   <!-- meteors -->
   <g opacity="0">
     <line x1="0" y1="0" x2="100" y2="21.8" stroke="url(#meteorTail)" stroke-width="2.2" stroke-linecap="round"/>
-    <circle cx="100" cy="21.8" r="2.6" fill="#e6e9f0"/>
+    <circle cx="100" cy="21.8" r="2.6" fill="#ffe08a"/>
     <animateMotion path="M120,30 L1300,285" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;0.9;0" keyTimes="0;0.1;0.72;1" dur="7s" repeatCount="indefinite"/>
   </g>
   <g opacity="0">
     <line x1="0" y1="0" x2="70" y2="15.3" stroke="url(#meteorTail)" stroke-width="1.8" stroke-linecap="round"/>
-    <circle cx="70" cy="15.3" r="2" fill="#e6e9f0"/>
+    <circle cx="70" cy="15.3" r="2" fill="#ffe08a"/>
     <animateMotion path="M980,20 L1420,120" dur="9s" begin="3.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;0.9;0" keyTimes="0;0.12;0.7;1" dur="9s" begin="3.2s" repeatCount="indefinite"/>
   </g>
 
   <!-- skyline -->
-  <g fill="#0f101a">
+  <g fill="#000000">
     <rect x="0" y="250" width="70" height="70"/>
     <rect x="70" y="270" width="55" height="50"/>
     <rect x="125" y="230" width="80" height="90"/>
-    <line x1="165" y1="230" x2="165" y2="212" stroke="#0f101a" stroke-width="3"/>
+    <line x1="165" y1="230" x2="165" y2="212" stroke="#000000" stroke-width="3"/>
     <rect x="205" y="265" width="60" height="55"/>
     <rect x="313" y="275" width="70" height="45"/>
     <rect x="383" y="240" width="90" height="80"/>
@@ -93,9 +95,9 @@
     <rect x="1148" y="268" width="52" height="52"/>
   </g>
 
-  <!-- neon tower (left) with jack-o'-lantern on top -->
+  <!-- gold neon tower (left) with jack-o'-lantern on top -->
   <g>
-    <rect x="265" y="215" width="48" height="105" fill="#1f2233" stroke="#f7768e" stroke-width="1.5">
+    <rect x="265" y="215" width="48" height="105" fill="#1a160a" stroke="#ffd173" stroke-width="1.5">
       <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/>
     </rect>
     <g transform="translate(289,196)">
@@ -113,13 +115,13 @@
     </g>
   </g>
 
-  <!-- neon tower (right) -->
-  <rect x="813" y="220" width="58" height="100" fill="#1f2233" stroke="#7aa2f7" stroke-width="1.5">
+  <!-- gold neon tower (right) -->
+  <rect x="813" y="220" width="58" height="100" fill="#1a160a" stroke="#e0af68" stroke-width="1.5">
     <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite"/>
   </rect>
 
   <!-- beacon light -->
-  <circle cx="570" cy="222" r="2.4" fill="#f7768e">
+  <circle cx="570" cy="222" r="2.4" fill="#ffd173">
     <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
 
@@ -140,8 +142,8 @@
     <rect x="624" y="282" width="4" height="6"/><rect x="638" y="282" width="4" height="6"/><rect x="1104" y="244" width="4" height="6"/><rect x="1118" y="262" width="4" height="6"/><rect x="1164" y="280" width="4" height="6"/>
     <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" begin="-1.7s" repeatCount="indefinite"/>
   </g>
-  <!-- a few cool blue windows -->
-  <g fill="#7aa2f7" opacity="0.85">
+  <!-- bright gold windows -->
+  <g fill="#ffe08a" opacity="0.9">
     <rect x="828" y="238" width="4" height="6"/><rect x="852" y="238" width="4" height="6"/><rect x="840" y="256" width="4" height="6"/><rect x="278" y="232" width="4" height="6"/><rect x="292" y="250" width="4" height="6"/>
   </g>
 
@@ -150,7 +152,7 @@
     <text x="600" y="118" font-size="58" font-weight="bold" letter-spacing="14" fill="url(#textGrad)" opacity="0">PUMPKIN
       <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.2s" fill="freeze"/>
     </text>
-    <text x="600" y="156" font-size="17" letter-spacing="2" fill="#9aa5ce" opacity="0">— vision systems · quant scans · on-chain agents —
+    <text x="600" y="156" font-size="17" letter-spacing="2" fill="#bfa76a" opacity="0">— vision systems · quant scans · on-chain agents —
       <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.8s" fill="freeze"/>
     </text>
   </g>
