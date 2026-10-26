@@ -22,14 +22,6 @@ I work on **machine vision** — teaching cameras to reliably see objects and mo
 **Markets** · Python, long-side scanning with [`longscan`](https://github.com/PitoLis/longscan)<br/>
 **Web3** · BNB Chain, agent-only launchpads ([gang.fun](https://gang.fun)), ZK basics with Aleo
 
-### 🛠️ Tech & tools
-
-<p align="center">
-  <a href="https://skillicons.dev/icons?i=c,python,js,ts,git,github,linux,vscode&theme=dark">
-    <img src="https://skillicons.dev/icons?i=c,python,js,ts,git,github,linux,vscode&theme=dark" alt="C, Python, JavaScript, TypeScript, Git, GitHub, Linux, VS Code" />
-  </a>
-</p>
-
 ### 🚀 What I'm up to
 
 - [x] Built a **[vision-based active following system](https://github.com/PitoLis/vision-based-active-following-system)** — detection, tracking and autonomous motion control, written in C ⭐ 34
