@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/night-sky.svg" width="100%" alt="Black-and-gold night sky over a city skyline — twinkling stars, meteors, a glowing jack-o'-lantern on a gold neon tower, and the word PUMPKIN" />
+  <img src="assets/night-sky.svg" width="100%" alt="Black-and-gold starfield — twinkling stars, meteors, a moon, and a floating glowing jack-o'-lantern above the word PUMPKIN" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=E0AF68&center=true&vCenter=true&width=620&lines=Computer+vision+%26+embedded+C+%F0%9F%91%81%EF%B8%8F;Python+quant+scanning+%F0%9F%93%88;BNB+Chain+%C2%B7+agent+experiments+%F0%9F%94%97;%E6%85%A2%E6%85%A2%E6%9D%A5%EF%BC%8C%E6%AF%94%E8%BE%83%E5%BF%AB+%F0%9F%8C%B1" width="620" alt="Typing: computer vision & embedded C; Python quant scanning; BNB Chain agent experiments; 慢慢来，比较快" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=E0AF68&center=true&vCenter=true&width=620&lines=Computer+vision+%26+embedded+C+%F0%9F%91%81%EF%B8%8F;Python+quant+scanning+%F0%9F%93%88;BNB+Chain+%C2%B7+agent+experiments+%F0%9F%94%97;Ad+astra+per+aspera+%E2%9C%A8" width="620" alt="Typing: computer vision & embedded C; Python quant scanning; BNB Chain agent experiments; Ad astra per aspera" />
 </p>
 
 <p align="center">
